@@ -10,7 +10,11 @@ body {
     
 }
 
+.gradiente {
+    border: 3px solid;
+    background-image: linear-gradient(to left, red, yellow, black, blue) ;
 
+}
 .contenedor {
     width: 90%;
     max-width: 1000px;
