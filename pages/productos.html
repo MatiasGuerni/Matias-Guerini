@@ -1,86 +1,62 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/logo de distri norte.png">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="../index.html">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Productos</title>
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__titulo">Distri Norte</h1>
-        <a href="../index.html">
-            <img class="logo" src="../images/logo de distri norte.png" alt="Logo de la pagina" width="80px" height="80ph">
-        </a>
-        <nav>
-            <ul class="header__links">
-                <li>
-                    <a href="../index.html">inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/productos.html"> productos</a>
-                </li>
-                <li>
-                    <a href="../pages/distri norte.html">distri norte</a>
-                </li>
-                <li>
-                    <a href="../pages/ofertas.html">ofertas</a>
-                </li>
-                <li>
-                    <a href="../pages/contactos.html">contactos</a>
-                </li>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo de distri norte.png" alt="imagen" width="100px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/distri norte.html">Distribuidora Norte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/ofertas.html">ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/contactos.html">Contacto</a>
+              </li>
+
+              
+             
+              
             </ul>
-        </nav>
-    </header>
-    <main>
-    <section class="section">
-    <h1 class="articulo__parrafo3">Productos</h1>
-    <table class="table" border="02px solid" cellpadding="10px"cellspacing="05px">
-        <tr>
-         <th>producto</th>
-         <th>marca</th>
-         <th>cantidad</th>
-         <th>precio</th>
-         <th>disponible</th>
-        </tr>
-        <tr>
-            <td>Chocolate Milka</td>
-            <td><img class="table__producto" src="../images/milka.png" alt="Chocolate milka leger"> Milka Leger - Categoría: Chocolates aireados </td>
-            <td>100gr</td>
-            <td>$200</td>
-            <td>
-                <ol>
-                <li>unidad</li>
-                </ol>
-            </td>
-        </tr>
-        <td>Gomitas</td>
-        <td><img class="table__producto" src="../images/mogul.png" alt="Gomitas Mogul">Gomitas - Categoría: Gomas de gelatina</td>
-        <td>500gr</td>
-        <td>$60</td>
-        <td>
-            <ol>
-                <li> unidades</li>
-            </ol>
-        </td>
-        </table>
-    </section>
-    </main>
-    <footer class="pieDePagina">
-        <p>Seguinos en nuestras redes sociales</p>
-            <a href="https://www.instagram.com/">
-                <img src="../images/instagram.png" alt="logo instagram" width="35px" height="35px">
-            </a>
-            <a href="https://es-la.facebook.com/">
-                <img src="../images/facebook.png" alt="Logo de facebook" width="35px" height="35px">
-            </a>
-            <a href="https://twitter.com/">
-                <img src="../images/twiter" alt="Logo de twiter" width="35px" height="35px">
-            </a>
-            <hr>
-        Distri Norte Todos los derechos reservados, 2022
-    </footer>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="card" style="width: 15rem;">
+            <img src="../images/golosinas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+      </div>
+    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

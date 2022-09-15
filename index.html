@@ -1,81 +1,120 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Inicio</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Document</title>
 </head>
-<body class= "gradiegnte">
-    <div class="contenedor"> 
-      <header class="header">
-        <h2>Distri Norte</h2>
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/galeria.html"> galeria</a>
-                </li>
-                <li>
-                    <a href="./pages/distri norte.html">DistriNorte</a>
-                </li>
-                <li>
-                    <a href="./pages/ofertas.html">Ofertas</a>
-                </li>
-                <li>
-                    <a href="./pages/contactos.html">Contactos</a>
-                </li>
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./images/logo de distri norte.png" alt="imagen" width="100px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/distri norte.html">Distribuidora Norte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/ofertas.html">ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/contactos.html">Contacto</a>
+              </li>
+
+              
+             
+              
             </ul>
-        </nav>
-    </header> 
-      <main class="contenido">
-        <h1>Bienvenidos a Distri Norte</h1>
-        <p class="parrafoContenido">"En sus comienzos distribuía exclusivamente galletitas y posteriormente amplió su cartera de productos alcanzando nuevos segmentos. Actualmente, con más de 25 años en el mercado, Distri-norte es la distribuidora oficial de las empresas multinacionales más importantes de bebidas, alimentos, perfumería y alimento para mascotas.
-            norteUbicada en el Parque Industrial Tecnológico de Villa Maipu, Distri-norte es la distribuidora líder de la Zona norte del Gran Buenos Aires."
-            <br><br>
-            "Nos distingue nuestros vendedores especializados para cada tipo de producto, las entregas dentro de las 24hs de pedidos pequeños y grandes, el fraccionamiento por unidad de todos nuestros productos y la atención del universo total de clientes existente en la Zona norte."
-            <br><br>
-           "Contar con un equipo de vendedores especializados y capacitados nos permite brindar una atención personalizada a nuestros clientes. La entrega de pedidos dentro de las 24hs, la información brindada a través de nuestros catálogos de productos, las promociones y combos, y la elevada frecuencia de visita semanal optimizan la relación con nuestros clientes. La transmisión de información a nuestros proveedores y la transparencia en la ejecución, son pilares fundamentales de nuestra empresa."
-        </p>
-    </main>
-        <aside class="sidebar">
-            <h3>Liquidaciones</h3>
-            <div class="liquidaciones">
-                <img src="./images/TIBU.png" alt="Golosinas">   
-            </div>
-            <div class="liquidaciones">
-                <img src="./images/jorgelin.png" alt="Golosinas">   
-            </div>
-            <div class="liquidaciones">
-                <img src="./images/papas.png" alt="Golosinas">   
-            </div>
-        </aside>
-        <div class="widget-1">
-            <h3>Ubicación en mapa</h3>
+          </div>
         </div>
-        <div class="widget-2">
-            <h3>Visita nuestro catalogo</h3>
+      </nav>
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/jorgelin.png" class="d-block w-100" alt="alfajor" width="100px">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/mantecol.png" class="d-block w-100" alt="mantecol">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/milka.png" class="d-block w-100" alt="chocolateMilka">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-">
+                <p class="contacto">
+                    Contacto
+                </p>
+                <p class="titulo-contacto">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, corporis quibusdam! Impedit doloremque totam eos deleniti quisquam aliquid, facere, ab ipsam molestiae similique pariatur accusantium possimus porro modi culpa explicabo?
+                </p>
+                <p>
+                    <i class="fas fa-map-marker-alt" id="localizcion">sdfsdf</i>
+                    
+                    <span class="titulo-colonia">
+                        martinez 2269 , piso 15D
+                    </span>
+                </p>
+                <div class="btont-siguenos">
+                    <p class="siguenos">
+                        siguenos
+                    </p>
+
+                </div>
+            </div>
+
         </div>
-        <footer class="footer">
-            <p>Seguinos en nuestras redes sociales</p>
-            <a href="https://es-la.facebook.com/">
-                <img src="./images/facebook (1).png" alt="logo de faceebok" width="35px" height="35px">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img src="./images/instagram.png" alt="logo de instagram" width="35px" height="35px">
-            </a>
-            <a href="https://twitter.com/">
-                <img src="./images/twiter" alt="logo de twiter" width="35px" height="35px">
-            </a>
-            Distri Norte Todos los derechos reservados, 2022
-        </footer>
+    </div>
+</div>
+<div class="fondo-footer"></div>
+<div id="pie-footer">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="titulo-footer">
+                copyright 02020 all rights reserved  /  this template is mode with <span class="span-subtitulo">by color</span>
+            </p>
+        </div>
     </div>
 
+</div>
+</div>
 
-    
-    
 </body>
 </html>
