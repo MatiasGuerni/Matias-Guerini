@@ -1,86 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/logo de distri norte.png">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <title>Productos</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+   
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <title>Distri Norte</title>
+  </head>
+  <body>
     <header class="header">
-        <h1 class="header__titulo">Distri Norte</h1>
-        <a href="../index.html">
-            <img class="logo" src="../images/logo de distri norte.png" alt="Logo de la pagina" width="80px" height="80ph">
-        </a>
-        <nav>
-            <ul class="header__links">
-                <li>
-                    <a href="../index.html">inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/productos.html"> productos</a>
-                </li>
-                <li>
-                    <a href="../pages/distri norte.html">distri norte</a>
-                </li>
-                <li>
-                    <a href="../pages/ofertas.html">ofertas</a>
-                </li>
-                <li>
-                    <a href="../pages/contactos.html">contactos</a>
-                </li>
-            </ul>
+      <div class="header__contenedor">
+        <h1>Distri norte</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="../index.html">inicio</a></li>
+            <li><a href="../pages/productos.html">productos</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">saucursales</a></li>
+            <li><a href="#">contactos</a></li>
+          </ul>
         </nav>
+        <i class='bx bx-menu'></i>
+      </div>
+      
     </header>
-    <main>
-    <section class="section">
-    <h1 class="articulo__parrafo3">Productos</h1>
-    <table class="table" border="02px solid" cellpadding="10px"cellspacing="05px">
-        <tr>
-         <th>producto</th>
-         <th>marca</th>
-         <th>cantidad</th>
-         <th>precio</th>
-         <th>disponible</th>
-        </tr>
-        <tr>
-            <td>Chocolate Milka</td>
-            <td><img class="table__producto" src="../images/milka.png" alt="Chocolate milka leger"> Milka Leger - Categoría: Chocolates aireados </td>
-            <td>100gr</td>
-            <td>$200</td>
-            <td>
-                <ol>
-                <li>unidad</li>
-                </ol>
-            </td>
-        </tr>
-        <td>Gomitas</td>
-        <td><img class="table__producto" src="../images/mogul.png" alt="Gomitas Mogul">Gomitas - Categoría: Gomas de gelatina</td>
-        <td>500gr</td>
-        <td>$60</td>
-        <td>
-            <ol>
-                <li> unidades</li>
-            </ol>
-        </td>
-        </table>
+    <section class="hero">
+      <div class="hero__contenedor">
+        <img src="../images/banner.png" alt="banner gaseosa">
+      </div>
     </section>
-    </main>
-    <footer class="pieDePagina">
-        <p>Seguinos en nuestras redes sociales</p>
-            <a href="https://www.instagram.com/">
-                <img src="../images/instagram.png" alt="logo instagram" width="35px" height="35px">
-            </a>
-            <a href="https://es-la.facebook.com/">
-                <img src="../images/facebook.png" alt="Logo de facebook" width="35px" height="35px">
-            </a>
-            <a href="https://twitter.com/">
-                <img src="../images/twiter" alt="Logo de twiter" width="35px" height="35px">
-            </a>
-            <hr>
-        Distri Norte Todos los derechos reservados, 2022
+    <section class="galeria">
+      <h2 class="titulo__productos">Gaseosas</h2>
+      <div class="galeria__contenedor">
+        <img src="../images/coca-light.webp" alt="coca cola" class="galeria__img">
+        <img src="../images/monster 1.jpg" alt="coca cola" class="galeria__img">
+        <img src="../images/coca-light.webp" alt="coca cola" class="galeria__img">
+      </div>
+      <h2 class="titulo__productos">Chocolates</h2>
+      <div class="galeria__contenedor">
+        
+        <img src="../images/chocolate1.jpg" alt="coca cola" class="galeria__img">
+        <img src="../images/chocolate2.jpg" alt="coca cola" class="galeria__img">
+        <img src="../images/chocolate3.png" alt="coca cola" class="galeria__img">
+      </div>
+      <h2 class="titulo__productos">Snack</h2>
+     <div class="galeria__contenedor">
+        
+        <img src="../images/CHEETOS-XXL-BOLIQUESO-XXL-X-180-GR.png" alt="coca cola" class="galeria__img">
+        <img src="../images/chetos bagg.jpg" alt="coca cola" class="galeria__img">
+        <img src="../images/chetos hot.jpg" alt="coca cola" class="galeria__img">
+      </div>
+      <h2 class="titulo__productos">Cervezas</h2>
+      <div class="galeria__contenedor">
+        
+        <img src="../images/penon-del-aguila-arandano-sour1-f7b3ebff30388013ad15983980711629-640-0.png.crdownload" alt="coca cola" class="galeria__img">
+        <img src="../images/Cerveza-Peñon-Del-aguila-Rubia-473-Ml-1-250303.webp" alt="coca cola" class="galeria__img">
+        <img src="../images/birra roja.jpg" alt="coca cola" class="galeria__img">
+      </div>
+    
+    </section>
+    <footer class="footer">
+      <div class="redes-sociales">
+        <h3>Redes Sociales</h3>
+        <a href="#" class="redes-item"><i class='bx bxl-facebook-square'></i>facebook</a>
+        <a href="#" class="redes-item"><i class='bx bxl-whatsapp' ></i>whatsapp</a>
+        <a href="#" class="redes-item"><i class='bx bxl-instagram' ></i>instagram</a>
+      </div>
+      <div class="footer__cta">
+        <h3>Quiero Ser Cliente</h3>
+        <a href="#">Registrarme</a>
+      </div>
+      <div class="contacto">
+       <h3>Contacto Directo</h3>
+        <span>Distribuidora@gmail.com</span>
+      </div>
     </footer>
-</body>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

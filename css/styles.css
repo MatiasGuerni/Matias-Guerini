@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.header__contenedor {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bx.bx-menu {
+  display: none;
+  font-size: 40px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.hero__contenedor {
+  width: 100%;
+}
+
+.hero__contenedor img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.galeria {
+  padding: 100px 0;
+}
+
+.galeria h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+.titulo__productos {
+  margin: 50px 0;
+}
+
+.galeria__contenedor {
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 50px;
+}
+
+.galeria__contenedor img {
+  border-radius: 10px;
+  width: 80%;
+  max-width: 350px;
+  padding: 25px;
+  box-shadow: 8px 7px 30px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 8px 7px 30px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.galeria__contenedor img:hover {
+  transform: scale(105%);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 0;
+  gap: 50px;
+  background-color: gray;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.redes-sociales a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.redes-sociales a i {
+  font-size: 25px;
+}
+
+.footer__cta a {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  .bx.bx-menu {
+    display: block;
+    font-size: 40px;
+  }
+  .nav {
+    display: none;
+  }
+  .hero__contenedor {
+    width: 100%;
+  }
+  .hero__contenedor img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .galeria h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 35px;
+  }
+  .galeria__contenedor {
+    margin: auto;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 50px;
+  }
+  .galeria__contenedor img {
+    border-radius: 10px;
+    width: 80%;
+    padding: 25px;
+    box-shadow: 8px 7px 30px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 8px 7px 30px 2px rgba(0, 0, 0, 0.25);
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+    background-color: gray;
+  }
+  .footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .redes-sociales a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .redes-sociales a i {
+    font-size: 25px;
+  }
+  .footer__cta a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
