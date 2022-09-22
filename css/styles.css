@@ -1,20 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  color: black;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
 }
-
-.header__contenedor {
+.header .header__contenedor {
   width: 100%;
   max-width: 1440px;
   margin: auto;
@@ -30,11 +20,53 @@
 .nav {
   display: flex;
 }
-
 .nav ul {
   display: flex;
   align-items: center;
   gap: 45px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 0;
+  gap: 50px;
+  background-color: gray;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.redes-sociales a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.redes-sociales a i {
+  font-size: 25px;
+}
+
+.footer__cta a {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
 
 .hero__contenedor {
@@ -83,40 +115,6 @@
 
 .galeria__contenedor img:hover {
   transform: scale(105%);
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 50px 0;
-  gap: 50px;
-  background-color: gray;
-}
-
-.footer div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
-
-.redes-sociales a {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.redes-sociales a i {
-  font-size: 25px;
-}
-
-.footer__cta a {
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
 }
 
 @media (max-width: 600px) {

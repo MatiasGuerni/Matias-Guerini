@@ -1,0 +1,31 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    .header__contenedor {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+}
+
+
+
+.bx.bx-menu {
+    display: none;
+    font-size: 40px;
+}
+
+.nav {
+    display: flex;
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 45px;
+    }
+}
