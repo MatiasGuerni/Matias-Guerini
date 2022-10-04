@@ -5,28 +5,35 @@
   align-items: flex-start;
   padding: 50px 0;
   gap: 50px;
-  background-color: gray;
+  background-color: black;
   div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
   }
-  .redes-sociales a {
+  .redes-item  {
     display: flex;
     align-items: center;
     gap: 15px;
   }
+
+  .redes-cta {
+    @extend .redes-item;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+
+  }
+
+ 
 
   .redes-sociales a i {
     font-size: 25px;
   }
 
   .footer__cta a {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
+    @include button;
   }
 }
 
@@ -37,7 +44,7 @@
     align-items: center;
     padding: 50px 0;
     gap: 50px;
-    background-color: gray;
+    background-color: black;
     div {
       display: flex;
       flex-direction: column;

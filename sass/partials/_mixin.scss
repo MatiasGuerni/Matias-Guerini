@@ -1,0 +1,5 @@
+@mixin button {
+    background-color: map-get($colors, secondary-color);
+    padding: 1em 2em;
+    border-radius: 10px;
+}
